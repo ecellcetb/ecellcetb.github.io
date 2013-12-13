@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(http://fonts.googleapis.com/css?family=kavoon);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+
+
+* {
+  font-family: "Inconsolata";
+}
+body {
+        background: #222222;
+        color: #fff;
+        font-size: 100%;
+      }
+.homepage-content-div{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 200px;
+}
+.homepage-content{
+		font-family: "";
+		font-size: 6em;
+    	font-weight: bold;
+    	color: #E8491E;
+    	text-shadow: 0 0 10px #3773BE;
+}
+.btn{
+    margin: 20px;
+  }
+
+@media only screen and (max-height: 600px) {
+    .homepage-content-div{
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }  
+  }
+  @media only screen and (max-height: 400px) {
+    .homepage-content-div{
+      margin-top: 70px;
+      margin-bottom: 100px;
+    }  
+  }
+#college{
+		font-family: "Inconsolata";
+    	padding: 20px 20px;
+}
+#homepage-links-div{
+		padding-top: 30px;
+		padding-bottom: 20;
+		padding-left: 20;
+		padding-right: 50;
+
+}
+.homepage-link{
+		font-size: 1.6em;
+    	font-weight: bold;
+    	color: #FFD249;
+    	padding: 0 20;
+    	padding-right: 20;
+    	text-decoration: underline;
+}
+ @media only screen and (max-width: 400px) {
+    body { font-size:60%;}
+    .homepage-link{
+      padding: 0 10px;
+    }
+  }
