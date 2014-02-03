@@ -75,7 +75,7 @@
     }
 
     .carousel .item {
-      height: 400px;
+      height: 500px;
     }
     .carousel img {
       position: absolute;
